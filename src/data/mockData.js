@@ -1,0 +1,40 @@
+export const mockTransactions = [
+  { id: 1, date: "2026-03-01", amount: 5000, category: "Salary", type: "income", description: "Monthly salary" },
+  { id: 2, date: "2026-03-02", amount: 1200, category: "Rent", type: "expense", description: "Monthly rent payment" },
+  { id: 3, date: "2026-03-03", amount: 250, category: "Groceries", type: "expense", description: "Weekly groceries" },
+  { id: 4, date: "2026-03-04", amount: 150, category: "Transportation", type: "expense", description: "Gas and parking" },
+  { id: 5, date: "2026-03-05", amount: 800, category: "Freelance", type: "income", description: "Freelance project payment" },
+  { id: 6, date: "2026-03-06", amount: 75, category: "Entertainment", type: "expense", description: "Movie tickets" },
+  { id: 7, date: "2026-03-07", amount: 300, category: "Utilities", type: "expense", description: "Electricity and water" },
+  { id: 8, date: "2026-03-08", amount: 200, category: "Healthcare", type: "expense", description: "Doctor visit" },
+  { id: 9, date: "2026-03-09", amount: 450, category: "Dining", type: "expense", description: "Restaurant meals" },
+  { id: 10, date: "2026-03-10", amount: 1500, category: "Investment", type: "income", description: "Dividend payment" },
+  { id: 11, date: "2026-03-11", amount: 180, category: "Shopping", type: "expense", description: "Clothing and accessories" },
+  { id: 12, date: "2026-03-12", amount: 90, category: "Subscription", type: "expense", description: "Streaming services" },
+  { id: 13, date: "2026-03-13", amount: 600, category: "Freelance", type: "income", description: "Side project payment" },
+  { id: 14, date: "2026-03-14", amount: 220, category: "Groceries", type: "expense", description: "Weekly groceries" },
+  { id: 15, date: "2026-03-15", amount: 350, category: "Education", type: "expense", description: "Online course" },
+  { id: 16, date: "2026-03-16", amount: 120, category: "Transportation", type: "expense", description: "Public transport" },
+  { id: 17, date: "2026-03-17", amount: 280, category: "Dining", type: "expense", description: "Weekend dining" },
+  { id: 18, date: "2026-03-18", amount: 750, category: "Bonus", type: "income", description: "Performance bonus" },
+  { id: 19, date: "2026-03-19", amount: 160, category: "Entertainment", type: "expense", description: "Concert tickets" },
+  { id: 20, date: "2026-03-20", amount: 400, category: "Insurance", type: "expense", description: "Monthly insurance premium" },
+  { id: 21, date: "2026-03-21", amount: 320, category: "Groceries", type: "expense", description: "Weekly groceries" },
+  { id: 22, date: "2026-03-22", amount: 180, category: "Healthcare", type: "expense", description: "Pharmacy" },
+  { id: 23, date: "2026-03-23", amount: 550, category: "Freelance", type: "income", description: "Consulting work" },
+  { id: 24, date: "2026-03-24", amount: 95, category: "Subscription", type: "expense", description: "Gym membership" },
+  { id: 25, date: "2026-03-25", amount: 210, category: "Shopping", type: "expense", description: "Household items" },
+  { id: 26, date: "2026-03-26", amount: 380, category: "Dining", type: "expense", description: "Family dinner" },
+  { id: 27, date: "2026-03-27", amount: 140, category: "Transportation", type: "expense", description: "Ride sharing" },
+  { id: 28, date: "2026-03-28", amount: 290, category: "Entertainment", type: "expense", description: "Gaming" },
+  { id: 29, date: "2026-03-29", amount: 425, category: "Utilities", type: "expense", description: "Internet and phone" },
+  { id: 30, date: "2026-03-30", amount: 1800, category: "Salary", type: "income", description: "Bi-weekly salary" },
+  { id: 31, date: "2026-03-31", amount: 150, category: "Charity", type: "expense", description: "Donation" }
+];
+
+export const categories = [
+  "Salary", "Freelance", "Investment", "Bonus", "Other Income",
+  "Rent", "Groceries", "Transportation", "Utilities", "Healthcare",
+  "Dining", "Entertainment", "Shopping", "Education", "Insurance",
+  "Subscription", "Charity", "Other Expense"
+];
